@@ -1,13 +1,81 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  outline: none;
+  transition: ease 0.5s all;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 75%;
+  /* border: 3px solid white; */
+  margin: auto;
+  /* background-color: #16082f;
+  background-image: radial-gradient(ellipse farthest-corner at 7px 7px, #0d1c4f, #0d1c4f 50%, #16082f 50%);
+  background-size: 6px 6px; */
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #ffffff;
+  font-weight: 800;
+}
+
+h1 {
+
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  /* color: #29b4eb; */
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+
+
+@media screen and (max-width: 1004px) {
+  body {
+    max-width: 80%;
+  }
+}
+
+
+@media screen and (max-width: 640px) {
+  body {
+    max-width: 90%;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body {
+    max-width: 95%;
+  }
 }

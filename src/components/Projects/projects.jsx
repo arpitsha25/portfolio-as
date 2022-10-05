@@ -14,7 +14,7 @@ const projects = () => {
           <div className="pcontent">
             {/* --------------------------------------------------------- */}
             <Boxdata title="TO DO LIST" url = "https://github.com/arpitsha25" image={require('../images/ml.jpg')} />
-            <Boxdata title="PORTFOLIO" url = "https://github.com/arpitsha25/portfolio-as" demourl = "https://arpitsha25.github.io/portfolio-as/" image={require('../images/ai.jpg')} />
+            <Boxdata title="PORTFOLIO" codeurl = "https://github.com/arpitsha25/portfolio-as" demourl = "https://arpitsha25.github.io/portfolio-as/" image={require('../images/pss.png')} />
             <Boxdata title="WEATHER REPORT" codeurl = "https://github.com/arpitsha25/weather_app" demourl = "https://arpitsha25.github.io/weather_app/"image={require('../images/weather.jpg')} />
             <Boxdata title="MOVIE LIST" url = "https://github.com/arpitsha25" image={require('../images/tech.jpg')} />
           </div>

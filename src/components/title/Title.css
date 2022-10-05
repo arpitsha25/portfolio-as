@@ -1,0 +1,20 @@
+.comp-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.6rem;
+  padding: 1rem;
+
+  /* From https://css.glass */
+  background: rgba(22, 8, 47, 0.5);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: none;
+  outline: none;
+}
+
+.comp-title h5 {
+  color: #29b4eb;
+}

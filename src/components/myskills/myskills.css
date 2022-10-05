@@ -1,0 +1,105 @@
+.scontainer {
+  /* background-color: aquamarine; */
+  /* height: 120vh; */
+  width: 100%;
+  /* border: 2px solid white; */
+}
+
+.skillset {
+  /* margin-top: 5rem; */
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  /* height:calc(100vh - 110px); */
+  /* background-color: rebeccapurple; */
+  margin: 2rem;
+
+}
+/*
+.skillset .skill-items {
+
+  background-color: red;
+  border: 1px solid #29b4eb;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 10px;
+  align-items: center;
+  justify-items: center;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+
+  outline: none;
+  border-color: #29b4eb;
+  box-shadow: 0 0 5px #29b4eb;
+  cursor: pointer;
+}
+ */
+
+
+
+ .skill-items {
+  height: 150px;
+  margin: 2rem;
+  /* background-color: aqua; */
+  font-size: 4.5em !important;
+  /* margin: 15px !important; */
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  /* display: grid !important;
+  grid-template-columns: auto auto auto auto !important;
+  grid-template-rows: auto auto auto auto !important; */
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  /* overflow: hidden !important; */
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  transition: all 0.4s ease 0s !important;
+  cursor: pointer;
+  color: white;
+}
+
+.skill-items:hover {
+  background-color: rgba(22, 8, 47, 0.5);
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .skillset {
+    grid-template-columns: auto auto auto;
+  }
+
+}
+@media screen and (max-width: 1004px) {
+
+}
+@media screen and (max-width: 750px) {
+  .skillset {
+    grid-template-columns: auto auto ;
+  }
+
+
+
+}
+
+@media screen and (max-width: 640px) {
+  .skillset{
+    margin: 0;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .skill-items{
+    margin: 1rem;
+  }
+
+}

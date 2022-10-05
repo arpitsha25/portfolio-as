@@ -1,0 +1,29 @@
+.dark {
+  /* background: black; */
+  /* background: #b19ed3; */
+  /* background-color: red; */
+  background-image: radial-gradient(ellipse farthest-corner at 7px 7px, #525258, #0f2058 50%, #210e42 50%);
+  background-size: 6px 6px;
+}
+.dark h1 {
+  color: white;
+}
+
+.light{
+  /* background: red; */
+  /* background: #b19ed3; */
+  background-image: radial-gradient(ellipse farthest-corner at 7px 7px, #0b163a, #09153b 50%, #000000 50%);
+  background-size: 6px 6px;
+}
+
+.toggle_icon {
+  top: 1rem;
+  border: 0.1px solid white;
+  padding: 0rem 1rem 0rem 1rem;
+  border-radius: 25px;
+  background-color: #16082f;
+  width: max-content;
+  cursor: pointer;
+  position: absolute;
+
+}

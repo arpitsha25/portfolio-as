@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+  /* height: 100vh; */
+  /* border: 1px solid white; */
+  /* margin-top: 5rem; */
+  /* background-color: pink; */
+}
+
+/* .toggle {
+  display: flex;
+  justify-content: flex-end;
+
+  cursor: pointer;
+  position: fixed;
+
+
+
+.toggle_icon{
+
+  border: .1px solid white;
+  padding: 0rem 1rem 0rem 1rem;
+  border-radius: 25px;
+  background-color:  #16082f;;
+} */
+
+.container .box1 {
+  /* background-color: pink; */
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .box2 {
+  /* background-color: #29b4eb; */
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1content {
+  text-align: center;
+}
+
+.box1content h4 {
+  color: #29b4eb;
+}
+
+.box2content img {
+  width: 400px;
+  height: auto;
+}
+
+.btn button {
+  margin: 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+}
+
+.btn h5 {
+  color: #16082f;
+  padding: 1rem;
+}
+
+.btn button :hover {
+  border-radius: 0.5rem;
+  background-color: #29b4eb;
+}
+
+@media screen and (max-width: 1004px) {
+}
+
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  .box2content img {
+    width: 300px;
+    height: auto;
+  }
+  .btn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box1content h1 {
+    font-size: 3rem;
+  }
+  .container {
+    margin-bottom: 0;
+    padding-top: 3rem;
+  }
+}

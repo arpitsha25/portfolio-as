@@ -1,0 +1,9 @@
+.fcontainer{
+  height: 16vh;
+  background-color: #29b4eb;
+  border-radius: 16px 16px 0 0;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  text-align: center;
+}

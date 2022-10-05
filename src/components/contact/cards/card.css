@@ -1,0 +1,20 @@
+
+.boxes {
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  background-color: #29b4eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* margin: 0; */
+  width: 280px;
+  height: 180px;
+  /* background-color: blueviolet; */
+  margin: 1rem;
+  border-radius: 16px;
+}
+
+.b1-uname {
+  color: white;
+}
